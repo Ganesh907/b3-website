@@ -68,27 +68,29 @@ body {
 
 /* Width of the scrollbar */
 ::-webkit-scrollbar {
-  width: 4px; /* Change the width */
-  height: 4px;
+  /* width: 4px; 
+  height: 4px; */
+  width:0px;
+  height: 0px;;
 }
 
-/* Track of the scrollbar */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color of the scrollbar track */
+  background: #f1f1f1;
 }
 
-/* Handle of the scrollbar */
 ::-webkit-scrollbar-thumb {
-  background-color: #0060b5; /* Scrollbar color */
-  border-radius: 10px; /* Rounded edges (optional) */
-  border: 2px solid transparent; /* To add some space around the handle */
+  background-color: #0060b5;
+  border-radius: 10px; 
+  border: 2px solid transparent; 
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background-color: #0060b5;
-   /* Darker scrollbar on hover */
 }
+
+
+
+
 @keyframes spin {
   0% {
       transform: rotate(0deg);
