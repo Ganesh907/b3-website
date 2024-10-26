@@ -1,0 +1,23 @@
+.accordion-details {
+    max-height: '0';
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    position: relative; 
+  }
+  
+  .accordion-expanded .accordion-details {
+    max-height: '300px'; 
+    transition: 'max-height 0.3s ease';
+  }
+  
+  .accordion-summary {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .accordion-wrapper {
+    position: relative;
+    height: 200px; 
+    overflow: hidden; 
+  }
+  

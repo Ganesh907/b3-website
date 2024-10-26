@@ -1,0 +1,113 @@
+.landingMain {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .landingcontainer {
+        height: 100vh;
+        display: flex;
+        width: 100%;
+        top: 0;
+        position: absolute;
+    }
+    
+    .technology {
+        flex: 1;
+        background: linear-gradient(#060E15, #0980EA);
+        transition: all 500ms ease-in-out;
+    }
+    
+    .technology:hover {
+        flex-grow: 1.5;
+    }
+    
+    .technology .techchild {
+        background-image: url(../assets/images/techbackground.png);
+        background-repeat: no-repeat;
+        width: inherit;
+        height: 100%;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        align-content: center;
+    }
+    
+    .technology .techchild .techcontent {
+        height: 100%;
+        width: inherit;
+        text-align: center;
+        overflow: clip;
+        font-size: 48px;
+    }
+    
+    .technology .techchild .techcontent h1 {
+        color: white;
+        font-family: 'Montserrat-Bold';
+        text-align: center;
+    }
+    
+    .technology .techchild .techcontent .seeMore {
+        color: white;
+        font-family: Montserrat;
+        width: 160px;
+        height: 50px;
+        font-size: 20px;
+        border: 2px solid white;
+    }
+    
+    .centerLogo {
+        z-index: 100;
+        background-color: transparent;
+        width: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    
+    .recruitment {
+        flex: 1;
+        background: linear-gradient(#0ACFFE, #9147EE);
+        transition: all 500ms ease-in-out;
+    }
+    
+    .recruitment:hover {
+        flex-grow: 1.5;
+    }
+    
+    .recruitment .recruitmentchild {
+        background-image: url(../assets/images/recruitmentbackground.png);
+        background-repeat: no-repeat;
+        width: inherit;
+        height: 100%;
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        align-content: center;
+    }
+    
+    .recruitment .recruitmentchild .recruitmentcontent {
+        height: 100%;
+        width: inherit;
+        text-align: center;
+        overflow: clip;
+        font-size: 48px;
+    }
+    
+    .recruitment .recruitmentchild .recruitmentcontent h1 {
+        overflow: hidden;
+        color: white;
+        font-family: 'Montserrat-Bold';
+        text-align: center;
+    }
+    
+    .recruitment .recruitmentchild .recruitmentcontent .seeMore {
+        color: white;
+        font-family: Montserrat;
+        width: 160px;
+        height: 50px;
+        font-size: 20px;
+        border: 2px solid white;
+    }
+    
